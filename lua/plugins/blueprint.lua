@@ -16,15 +16,7 @@ return {
       opts.ensure_installed = vim.list_extend(opts.ensure_installed or {}, { "blueprint" })
     end,
   },
-  -- LSP via Mason
-  {
-    "mason-org/mason-lspconfig.nvim",
-    opts = function(_, opts)
-      opts = opts or {}
-      opts.ensure_installed = vim.list_extend(opts.ensure_installed or {}, { "blueprint_ls" })
-    end,
-  },
-  -- lspconfig server config
+  -- lspconfig server config (install manually via npm i -g @blueprint/language-server)
   {
     "neovim/nvim-lspconfig",
     opts = {
