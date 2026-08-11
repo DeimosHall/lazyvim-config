@@ -1,4 +1,16 @@
-# 💤 LazyVim
+# 💤 My LazyVim Configuration
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+## Installation
+
+Simply clone this repository in the config directory with:
+
+```bash
+git clone https://github.com/DeimosHall/lazyvim-config.git ~/.config/nvim/
+```
+
+Or:
+
+```bash
+git clone git@github.com:DeimosHall/lazyvim-config.git ~/.config/nvim/
+```
+
